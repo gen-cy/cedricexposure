@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/cedricexposure/precache-manifest.b7fc63031e334a3c5012b6d1f615ed21.js"
+  "/cedricexposure/precache-manifest.73bcc3ce1d2cc6c4d1023d3915712fa1.js"
 );
 
 workbox.clientsClaim();

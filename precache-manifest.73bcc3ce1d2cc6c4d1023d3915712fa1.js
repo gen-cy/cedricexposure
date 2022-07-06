@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "0e3daba39a0dc07ca596",
+    "revision": "aa8c39bcb7f20951915e",
     "url": "/cedricexposure/static/css/main.c8affb89.chunk.css"
   },
   {
-    "revision": "0e3daba39a0dc07ca596",
-    "url": "/cedricexposure/static/js/main.0e3daba3.chunk.js"
+    "revision": "aa8c39bcb7f20951915e",
+    "url": "/cedricexposure/static/js/main.aa8c39bc.chunk.js"
   },
   {
     "revision": "c9ff145f0793297b6f50",
@@ -16,7 +16,7 @@ self.__precacheManifest = [
     "url": "/cedricexposure/static/js/runtime~main.60337411.js"
   },
   {
-    "revision": "b44a443cc6f22ad3dc1f0e14fe4bb900",
+    "revision": "70239bf232287ac933b4a8b8f3dce70b",
     "url": "/cedricexposure/index.html"
   }
 ];
