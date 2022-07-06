@@ -10,6 +10,10 @@ class App extends React.Component {
     const element = this.container.current
     createScrollSnap(element, {
       snapDestinationY: '90%',
+      timeout: 100,
+      duration: 350,
+      threshold: 0.35,
+      snapStop: false,
     }, () => console.log('snapped'))
   }
 
