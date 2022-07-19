@@ -2,6 +2,7 @@
 body {
   margin: 0px;
   height: 100vh;
+  overflow: hidden; /* Hide scrollbars */
 }
 
 .container {
@@ -35,8 +36,12 @@ body {
 .container div:nth-child(5) {
   background: rgb(20, 255, 55);
 }
+@media screen and (max-width: 768px){
+  ::-webkit-scrollbar {
+      -webkit-appearance: none;
+  }
+}
 
-::-webkit-scrollbar {
-width: 0px;
-background: transparent; /* make scrollbar transparent */
+.container::-webkit-scrollbar {
+  display: none;
 }
