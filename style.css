@@ -12,14 +12,14 @@ body {
   height: 100vh;
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: hidden; 
+  overflow: hidden; 
 }
 
 /* hide scrollbar but allow scrolling */
 div {
   -ms-overflow-style: none; /* for Internet Explorer, Edge */
   scrollbar-width: none; /* for Firefox */
-  overflow-y: hidden; 
+  overflow: hidden; 
 }
 
 
