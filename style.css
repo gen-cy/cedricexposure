@@ -14,9 +14,6 @@ div {
   overflow-y: hidden; 
 }
 
-div::-webkit-scrollbar {
-  display: none; /* for Chrome, Safari, and Opera */
-}
 
 
 .container {
@@ -57,7 +54,14 @@ div::-webkit-scrollbar {
 .container::-webkit-scrollbar {
   display: none;
 }
+.container div::-webkit-scrollbar {
+  display: none;
+}
 
 body::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
+div::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
