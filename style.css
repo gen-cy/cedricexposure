@@ -2,8 +2,22 @@
 body {
   margin: 0px;
   height: 100vh;
-  overflow-y: hidden; /* Hide scrollbars */
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: hidden; 
 }
+
+/* hide scrollbar but allow scrolling */
+div {
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll; 
+}
+
+div::-webkit-scrollbar {
+  display: none; /* for Chrome, Safari, and Opera */
+}
+
 
 .container {
   height: 100%;
@@ -39,15 +53,11 @@ body {
 .container div:nth-child(5) {
   background: rgb(20, 255, 55);
 }
-@media screen and (max-width: 768px){
-  ::-webkit-scrollbar {
-      -webkit-appearance: none;
-  }
-}
 
 .container::-webkit-scrollbar {
   display: none;
 }
+
 body::-webkit-scrollbar {
   display: none; /* for Chrome, Safari, and Opera */
 }
